@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #111;
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.header{   
+    border-bottom: 1px solid #ffffff;
+    background-color: #11171e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1% 0% 1% 10%;
+}
+
+.header_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header_menu_link{
+    font-weight: 600;
+    font-size: 22px;
+    color: #22d4fd;
+    text-decoration: none;
+}
+
+.header_menu_link::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #22d4fd;
+    transition: width 0.4s ease-in-out, transform 0.4s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.header_menu_link:hover::after{
+    width: 100%;
+    transform: translateX(0%);
+}
+
+.conteiner{
+    margin: 7% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner_cont{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteiner_cont_title{
+    font-size: 40px;
+}
+
+.conteiner_cont_title_font{
+    font-size: 20px;
+}
+
+.conteiner_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+}
+
+.title{
+    color: #22d4fd;
+}
+
+.skill{
+    color: #22d4fd;
+}
+
+.conteiner_title_link{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img{
+    flex-direction: column;
+    width: 40%;
+}
+
+.btn{ 
+    gap: 16px;
+    justify-content: center;
+    display: flex;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #003946, #22d4fd ,#55defd) 1;
+    width: 378px;
+    padding: 21.5px 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.btn-success{
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: var(--cor-secundaria-success);
+}
+
+.btn-success:hover{
+    background-color: #272727;
+}
+
+.btn-success:active{
+    background-color: #525252;
+}
+
+.baseboard{
+    color: #000;
+    background-color: #22d4fd;
+    padding: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: auto;
+}
