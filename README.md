@@ -6,9 +6,7 @@
 
 ---
 
-:computer: I'm systems analysis and development student!
-
-👩🏾‍💻 I'm Front-end dev 
+:computer: I'm Front-end dev 
 
 :house_with_garden: I’m from Brazil.
 
