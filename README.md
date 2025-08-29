@@ -4,8 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=4A90E2&background=25017400&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;React+%7C+Angular+%7C+Java;Always+Learning+New+Technologies;Welcome+to+my+GitHub!" alt="Typing SVG" />
 </div>
 
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=guijg&show_icons=true&title_color=ff82f8&text_color=ff82f8&icon_color=ff82f8&bg_color=250174&cache_seconds=2300&border_radius=15" width="400">
-
 ## 🚀 About Me
 
 **Full-Stack Developer** passionate about creating innovative digital solutions and constantly exploring new technologies.
@@ -115,3 +113,4 @@
 <p align="center">
   <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
+
